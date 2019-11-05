@@ -1,0 +1,3 @@
+C:\Users\ATENTS\Desktop\console-dudle\.vs
+C:\Users\ATENTS\Desktop\console-dudle\.ConsoleFPS2
+C:\Users\ATENTS\Desktop\console-dudle\ConsoleFPS2
