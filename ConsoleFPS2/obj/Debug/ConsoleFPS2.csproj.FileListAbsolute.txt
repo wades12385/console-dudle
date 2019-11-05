@@ -1,0 +1,35 @@
+C:\Users\wades\Desktop\ConsoleFPS4\ConsoleFPS2\bin\Debug\ConsoleFPS2.exe.config
+C:\Users\wades\Desktop\ConsoleFPS4\ConsoleFPS2\bin\Debug\ConsoleFPS2.exe
+C:\Users\wades\Desktop\ConsoleFPS4\ConsoleFPS2\bin\Debug\ConsoleFPS2.pdb
+C:\Users\wades\Desktop\ConsoleFPS4\ConsoleFPS2\obj\Debug\ConsoleFPS2.csprojAssemblyReference.cache
+C:\Users\wades\Desktop\ConsoleFPS4\ConsoleFPS2\obj\Debug\ConsoleFPS2.csproj.CoreCompileInputs.cache
+C:\Users\wades\Desktop\ConsoleFPS4\ConsoleFPS2\obj\Debug\ConsoleFPS2.exe
+C:\Users\wades\Desktop\ConsoleFPS4\ConsoleFPS2\obj\Debug\ConsoleFPS2.pdb
+H:\gongbu\새 폴더\ConsoleFPS2\obj\Debug\ConsoleFPS2.csprojAssemblyReference.cache
+H:\gongbu\새 폴더\ConsoleFPS2\obj\Debug\ConsoleFPS2.csproj.CoreCompileInputs.cache
+H:\gongbu\새 폴더\ConsoleFPS2\obj\Debug\ConsoleFPS2.exe
+H:\gongbu\새 폴더\ConsoleFPS2\obj\Debug\ConsoleFPS2.pdb
+H:\gongbu\새 폴더\ConsoleFPS2\bin\Debug\ConsoleFPS2.exe.config
+H:\gongbu\새 폴더\ConsoleFPS2\bin\Debug\ConsoleFPS2.exe
+H:\gongbu\새 폴더\ConsoleFPS2\bin\Debug\ConsoleFPS2.pdb
+H:\1weekProject\week project\ConsoleFPS2\bin\Debug\ConsoleFPS2.exe.config
+H:\1weekProject\week project\ConsoleFPS2\bin\Debug\ConsoleFPS2.exe
+H:\1weekProject\week project\ConsoleFPS2\bin\Debug\ConsoleFPS2.pdb
+H:\1weekProject\week project\ConsoleFPS2\obj\Debug\ConsoleFPS2.csprojAssemblyReference.cache
+H:\1weekProject\week project\ConsoleFPS2\obj\Debug\ConsoleFPS2.csproj.CoreCompileInputs.cache
+H:\1weekProject\week project\ConsoleFPS2\obj\Debug\ConsoleFPS2.exe
+H:\1weekProject\week project\ConsoleFPS2\obj\Debug\ConsoleFPS2.pdb
+E:\1weekProject\week project\ConsoleFPS2\bin\Debug\ConsoleFPS2.exe.config
+E:\1weekProject\week project\ConsoleFPS2\bin\Debug\ConsoleFPS2.exe
+E:\1weekProject\week project\ConsoleFPS2\bin\Debug\ConsoleFPS2.pdb
+E:\1weekProject\week project\ConsoleFPS2\obj\Debug\ConsoleFPS2.csprojAssemblyReference.cache
+E:\1weekProject\week project\ConsoleFPS2\obj\Debug\ConsoleFPS2.csproj.CoreCompileInputs.cache
+E:\1weekProject\week project\ConsoleFPS2\obj\Debug\ConsoleFPS2.exe
+E:\1weekProject\week project\ConsoleFPS2\obj\Debug\ConsoleFPS2.pdb
+C:\Users\wades\Desktop\week project\ConsoleFPS2\bin\Debug\ConsoleFPS2.exe.config
+C:\Users\wades\Desktop\week project\ConsoleFPS2\bin\Debug\ConsoleFPS2.exe
+C:\Users\wades\Desktop\week project\ConsoleFPS2\bin\Debug\ConsoleFPS2.pdb
+C:\Users\wades\Desktop\week project\ConsoleFPS2\obj\Debug\ConsoleFPS2.csprojAssemblyReference.cache
+C:\Users\wades\Desktop\week project\ConsoleFPS2\obj\Debug\ConsoleFPS2.csproj.CoreCompileInputs.cache
+C:\Users\wades\Desktop\week project\ConsoleFPS2\obj\Debug\ConsoleFPS2.exe
+C:\Users\wades\Desktop\week project\ConsoleFPS2\obj\Debug\ConsoleFPS2.pdb
