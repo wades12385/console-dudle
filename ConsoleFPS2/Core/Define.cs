@@ -132,7 +132,7 @@ enum eMaxValue
     KeyMax = 173,
 }
 
-//의미있는 상수값들
+//상수값 정의
 public enum eValueNum
 {
 	ScreenLeft =2,
