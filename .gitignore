@@ -1,9 +1,5 @@
 
-.vs\
-.vs/ConsoleFPS2/v15/.suo
-*.db
-*.ipch
-
+.vs/
 ConsoleFPS2/bin/
 ConsoleFPS2/obj/
 
