@@ -65,15 +65,12 @@ class Player : GameObj
     {
         ClearRender();
 
-        //if로 아이템 사용상태인지 아닌지 확인하는 것보다 쓸때만 지속시간 양수값으로 설정 해놓는게 좋다고 생각함 
+        //아이템 사용 할 지속시간 양수값으로 설정 할거여서 계속 감속하도록 냅둠 
         m_JumpBuffLiveTime -= a_Delta;
         m_SlowBuffLiveTime -= a_Delta;
         //------------------------------
 
-
         Input();
-
-
      
         if (m_bIsJump==false)
            m_bIsFall = !Interaction();
@@ -82,9 +79,9 @@ class Player : GameObj
         Fall(a_Delta);
 
         m_vcPos += (m_vcDir * m_fSpeed * a_Delta);
+
+
 		if (m_vcPos.y > (int)eValueNum.TileEndlLine) m_bIsDie = true;
-		if (m_vcPos.x > (int)eValueNum.ScreenRight) m_vcPos.x = (int)eValueNum.ScreenLeft + 2;
-		if (m_vcPos.x < (int)eValueNum.ScreenLeft+2) m_vcPos.x = (int)eValueNum.ScreenRight;
 
         //아이템 지속시간 0으로 떨어지면 아이템 적용 수치 0으로 
         if (m_JumpBuffLiveTime <= 0)  m_nJumpBuffVal = 0;
@@ -120,12 +117,17 @@ class Player : GameObj
             m_nSlowBuffVal = 0.2f;
         }
 
-    }
+		//사이드로 나가면 반대쪽으로 나옴 
+		if (m_vcPos.x > (int)eValueNum.ScreenRight) m_vcPos.x = (int)eValueNum.ScreenLeft + 2;
+		if (m_vcPos.x < (int)eValueNum.ScreenLeft + 2) m_vcPos.x = (int)eValueNum.ScreenRight;
+
+	}
 
 	void Jump(float a_Delta)
     {
         if (!m_bIsJump)
             return;
+
         //일정 높이에 도달하면 플레이어는 더 이상 올라가지 않지만
         //계속 점프상태처럼 보이기 위해 타일들이 내려와야함 
         //멈춰 있지만 점프 상태는 유지해야하기에 더미용 y값을 만듬 

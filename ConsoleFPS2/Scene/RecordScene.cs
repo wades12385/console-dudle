@@ -62,7 +62,7 @@ class RecordScene : IExecute
         ShowScoreBord();
 
        // 이니셜 3칸 입력이 안되어 있으면 안넘어감 
-        if (InputKey.Get().keyPress(Key.Enter) && m_nNameIndex ==3)
+        if (InputKey.Get().keyPress(Key.Space) && m_nNameIndex ==3)
         {
             WriteNewRecord(m_nowScore);
             this.TotestChange(eScene.Title);
@@ -149,7 +149,7 @@ class RecordScene : IExecute
         }
         else
         {
-
+			
             string[] str = temp.Split(',');
             m_RankScore = int.Parse(str[1]);
             m_sRankerName = str[0];

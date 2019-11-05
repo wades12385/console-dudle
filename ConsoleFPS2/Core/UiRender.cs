@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Windows.Input;
 class UiRender : IExecute
 {
     string[,] m_Number = new string[10, 7]
@@ -620,9 +617,9 @@ class UiRender : IExecute
             Console.WriteLine("키보드로 바로 입력되며 ");
             Console.SetCursorPosition(3, 15);
             Console.WriteLine("벡스페이스도 적용됩니다.");
-            Console.SetCursorPosition(3, 16);
-            Console.WriteLine("Enter로 저장하며 넘어갑니다.");
         }
+            Console.SetCursorPosition(3, 16);
+            Console.WriteLine("Space로 넘어갑니다.");
 
     }
 
@@ -634,10 +631,9 @@ class UiRender : IExecute
 
         InitialRender(Text, 5, 5);
 
-
         Console.SetCursorPosition(0, 28);
-        Console.Write("Press any key to Continue...");
-        //아무키나 누르면 메서드 나감
-        while (InputKey.Get().FromAnyKeyToInt() == (int)eMaxValue.KeyMax) ;
+        Console.Write("Press any key to Enter...");
+        //엔터키나 누르면 메서드 나감
+        while (InputKey.Get().KeyDown(Key.Enter)==false) ;
     }
 }
