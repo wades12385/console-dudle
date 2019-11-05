@@ -1,4 +1,0 @@
-C:\Users\ATENTS\Desktop\console-dudle\.vs\
-C:\Users\ATENTS\Desktop\console-dudle\.ConsoleFPS2\bin\
-C:\Users\ATENTS\Desktop\console-dudle\ConsoleFPS2\obj\
-\.vs\
